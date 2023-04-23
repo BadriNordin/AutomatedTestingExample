@@ -61,7 +61,7 @@ public class Forms {
     }
 
     public WebElement findSubject(){
-        WebElement sub = driver.findElement(By.cssSelector(".subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi.css-1hwfws3"));
+        WebElement sub = driver.findElement(By.cssSelector(".subjects-auto-complete__control.css-yk16xz-control"));
         return sub;
     }
 

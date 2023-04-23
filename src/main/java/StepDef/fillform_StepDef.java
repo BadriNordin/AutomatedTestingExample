@@ -59,12 +59,17 @@ Forms forms = new Forms(driver);
         TimeUnit.SECONDS.sleep(3);
         forms.findPracticeForms().click();
         forms.findfirstname().sendKeys("Badri");
+        TimeUnit.SECONDS.sleep(1);
         forms.findlastname().sendKeys("UpWork");
+        TimeUnit.SECONDS.sleep(1);
         forms.findemail().sendKeys("hire.me@please.com");
+        TimeUnit.SECONDS.sleep(1);
         forms.findNum().sendKeys("0123456789");
+        TimeUnit.SECONDS.sleep(1);
         forms.findDate().click();
+        TimeUnit.SECONDS.sleep(1);
         forms.pickDate().click();
-//        forms.findSubject().sendKeys("M" + Keys.ENTER);
+        forms.findSubject().sendKeys("M" + Keys.ENTER);
 //        forms.findHobbySports();
 //        forms.findaddimg();
 
